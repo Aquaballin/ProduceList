@@ -65,4 +65,24 @@ public class User extends ParseObject {
 
         put("transNum", newTrans);
     }
+
+    private String getUsername()
+    {
+        return getString("username");
+    }
+
+    private void setUsername(String username)
+    {
+        put("username", username);
+    }
+
+    private String getPassword()
+    {
+        return getString("password");
+    }
+
+    private void setPassword(String password)
+    {
+        put("password", password);
+    }
 }
