@@ -20,13 +20,16 @@ public class ParseApplication extends Application {
     Parse.enableLocalDatastore(this);
 
     // Add your initialization code here
-    Parse.initialize(this);
+    Parse.initialize(this, "lxFtwdxcRgznLjyVjjsUHFlBrEIBFvmG86Dl6uFe", "SU385igXTsKSTcdx1H7BMO0n6kNf6YeZV4XhxpmJ");
 
 
-    ParseUser.enableAutomaticUser();
-    ParseACL defaultACL = new ParseACL();
-    // Optionally enable public read access.
-    // defaultACL.setPublicReadAccess(true);
-    ParseACL.setDefaultACL(defaultACL, true);
+      ParseUser.enableAutomaticUser();
+      ParseACL defaultACL = new ParseACL();
+
+      // If you would like all objects to be private by default, remove this
+      // line.
+      defaultACL.setPublicReadAccess(true);
+
+      ParseACL.setDefaultACL(defaultACL, true);
   }
 }

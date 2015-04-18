@@ -3,5 +3,7 @@
 
 
     <string name="app_name">ProduceList</string>
+    <string name="Username">Username</string>
+    <string name="Welcome">Welcome</string>
+    <string name="LogoutBtn">LogoutButton</string>
 </resources>
-test
