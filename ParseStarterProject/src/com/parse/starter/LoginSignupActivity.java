@@ -20,8 +20,10 @@ public class LoginSignupActivity extends Activity {
     Button signup;
     String usernametxt;
     String passwordtxt;
+    String emailtxt;
     EditText password;
     EditText username;
+    EditText email;
 
     /** Called when the activity is first created. */
     public void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,7 @@ public class LoginSignupActivity extends Activity {
         setContentView(R.layout.login_signup);
         // Locate EditTexts in main.xml
         username = (EditText) findViewById(R.id.username);
+        email = (EditText) findViewById(R.id.email);
         password = (EditText) findViewById(R.id.password);
 
         // Locate Buttons in main.xml
@@ -43,6 +46,7 @@ public class LoginSignupActivity extends Activity {
                 // Retrieve the text entered from the EditText
                 usernametxt = username.getText().toString();
                 passwordtxt = password.getText().toString();
+                emailtxt = email.getText().toString();
 
                 // Send data to Parse.com for verification
                 ParseUser.logInInBackground(usernametxt, passwordtxt,
@@ -75,9 +79,10 @@ public class LoginSignupActivity extends Activity {
                 // Retrieve the text entered from the EditText
                 usernametxt = username.getText().toString();
                 passwordtxt = password.getText().toString();
+                emailtxt = email.getText().toString();
 
                 // Force user to fill up the form
-                if (usernametxt.equals("") && passwordtxt.equals("")) {
+                if (usernametxt.equals("") && passwordtxt.equals("") && emailtxt.equals(""))  {
                     Toast.makeText(getApplicationContext(),
                             "Please complete the sign up form",
                             Toast.LENGTH_LONG).show();
@@ -87,6 +92,7 @@ public class LoginSignupActivity extends Activity {
                     ParseUser user = new ParseUser();
                     user.setUsername(usernametxt);
                     user.setPassword(passwordtxt);
+                    user.setEmail(emailtxt);
                     user.signUpInBackground(new SignUpCallback() {
                         public void done(ParseException e) {
                             if (e == null) {
