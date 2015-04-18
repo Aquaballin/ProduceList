@@ -1,0 +1,10 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginActivity" >
+
+    <!-- Login form -->
+
+
+
+</merge>
+<!-- From: file:/Users/davidcasey/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/res/layout/login_activity.xml -->
