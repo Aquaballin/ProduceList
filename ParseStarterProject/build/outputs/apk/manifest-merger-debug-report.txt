@@ -51,7 +51,7 @@ ADDED from AndroidManifest.xml:20:9
 		ADDED from AndroidManifest.xml:21:13
 	android:value
 		ADDED from AndroidManifest.xml:22:13
-activity#com.parse.starter.ParseStarterProjectActivity
+activity#com.parse.starter.CheckUserActivity
 ADDED from AndroidManifest.xml:24:9
 	android:label
 		ADDED from AndroidManifest.xml:26:13
@@ -67,3 +67,15 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:30:17
 	android:name
 		ADDED from AndroidManifest.xml:30:27
+activity#com.parse.starter.LoginSignupActivity
+ADDED from AndroidManifest.xml:34:9
+	android:label
+		ADDED from AndroidManifest.xml:36:9
+	android:name
+		ADDED from AndroidManifest.xml:35:9
+activity#com.parse.starter.LoginSuccess
+ADDED from AndroidManifest.xml:38:9
+	android:label
+		ADDED from AndroidManifest.xml:40:13
+	android:name
+		ADDED from AndroidManifest.xml:39:13
