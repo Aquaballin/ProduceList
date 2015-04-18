@@ -22,7 +22,7 @@
             android:value="SU385igXTsKSTcdx1H7BMO0n6kNf6YeZV4XhxpmJ" />
 
         <activity
-            android:name=".ParseStarterProjectActivity"
+            android:name=".CheckUserActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
