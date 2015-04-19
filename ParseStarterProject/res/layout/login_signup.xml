@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:text="@string/Username" />
 
-    <EditText
+   <EditText
         android:id="@+id/username"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -19,10 +19,24 @@
         android:inputType="text" />
 
     <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:text="@string/Email" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below= "@+id/txtemail"
+        android:inputType="textEmailAddress" />
+
+    <TextView
         android:id="@+id/txtpassword"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/username"
+        android:layout_below="@+id/email"
         android:text="Password" />
 
     <EditText
