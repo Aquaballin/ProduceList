@@ -1,0 +1,4 @@
+/Users/davidcasey/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/classes/debug
+/Users/davidcasey/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-d601d0cfa5a02dba78040a4011e5c297e7292f23.jar
+/Users/davidcasey/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.1-3dbe483c102a84ce3ed11cf9b24485684f28406a.jar
+/Users/davidcasey/Downloads/Parse-Starter-Project-1.9.1/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.9.1-5c8c200d05eee8c72245120579314258b8de776c.jar

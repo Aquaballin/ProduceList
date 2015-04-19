@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Parse-Starter-Project-1.9.1.iml" filepath="$PROJECT_DIR$/Parse-Starter-Project-1.9.1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" filepath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParseStarterProject/BluestoneHacks.iml" filepath="$PROJECT_DIR$/ParseStarterProject/BluestoneHacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProduceList.iml" filepath="$PROJECT_DIR$/ProduceList.iml" />
     </modules>
   </component>
 </project>
